@@ -37,8 +37,24 @@ public class Posto {
         this.posizione=posizione;
         this.conducente=conducente;
     }
+
+    //Esempio di Overloading
+      /**
+     * Costruttore
+     * @param lato
+     * @param posizione
+     * 
+     */
+    public Posto(Lato lato, char posizione)
+    {
+        this.lato=lato;
+        this.posizione=posizione;
+        this.conducente=false;
+    }
      /**
      * ritorna se è occupato o meno
+     * @deprecated 
+     * 
      */
     public boolean eOccupato()
     {

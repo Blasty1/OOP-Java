@@ -17,5 +17,12 @@ public class CarSharingApp {
         // p.posizione=Posto.ANTERIORE;
         // p.conducente=true;
         System.out.println("Occupato: " + p.eOccupato());
+
+        //omettere l'ultimo parametro , renderlo optional
+        Posto r = new Posto(Posto.Lato.SX,Posto.ANTERIORE);
+        System.out.println("Occupato: " + r.eOccupato());
+
+        // metodo deprecato --> Integer l = new Integer(42);
+        Integer j = Integer.valueOf(42); //metodo corretto
     }
 }
