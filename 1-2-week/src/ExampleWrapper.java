@@ -6,7 +6,7 @@ public class ExampleWrapper {
             long t0=System.currentTimeMillis();
             int acc=0;
 
-            for(int i=0; i < 1000000; ++i)
+            for(int i=0; i < 1000000; i++)
             {
                 acc +=i;
             }
