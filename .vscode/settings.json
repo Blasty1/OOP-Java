@@ -3,4 +3,5 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "files.autoSave": "afterDelay",
     "java.jdt.ls.vmargs": "",
+    "java.debug.settings.onBuildFailureProceed": true,
 }
